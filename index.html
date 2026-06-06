@@ -380,47 +380,66 @@ body{padding-bottom:58px}
       <button class="tab-btn" onclick="filterGallery('repair',this)">Repairs & Geysers</button>
     </div>
     <div class="gallery-grid" id="galleryGrid">
+      
+      <!-- 1. Water Tank Setup (Sahi filter aur label ke sath) -->
+      <div class="gallery-card fade-in" data-cat="tank">
+        <img src="https://i.postimg.cc/HL6WsHXy/IMG-20260606-223434.png" alt="Water Tank Setup" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0ea5e9,#0369a1)"><span style="font-size:40px">🛢️</span><span style="font-size:12px;font-weight:700">Water Tank</span></div>
+        <div class="img-tag" style="background:#f97316">Water Tank</div><div class="img-label">Premium Overhead Water Tank Setup</div>
+      </div>
+
+      <!-- 2. Instant Geyser Repair & Installation -->
+      <div class="gallery-card fade-in" data-cat="repair">
+        <img src="https://i.postimg.cc/nL3VcZBQ/IMG-20260606-223522.png" alt="Geyser Installation" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#dc2626,#991b1b)"><span style="font-size:40px">🔥</span><span style="font-size:12px;font-weight:700">Geyser Work</span></div>
+        <div class="img-tag" style="background:#dc2626">Repair & Geyser</div><div class="img-label">Instant Gas Geyser Repair & Installation</div>
+      </div>
+
+      <!-- 3. Concealed Pipe Layout (Green Pipes) -->
       <div class="gallery-card fade-in" data-cat="piping">
-        <img src="https://i.postimg.cc/HL6WsHXy/IMG-20260606-223434.png" alt="PPRC Pipe Fitting" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0a2540,#0d3060)"><span style="font-size:40px">🏗️</span><span style="font-size:12px;font-weight:700">PPRC Pipe Fitting</span></div>
+        <img src="https://i.postimg.cc/B6tSjyB8/IMG-20260606-223410.png" alt="PPRC Concealed Piping" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0a2540,#0d3060)"><span style="font-size:40px">🏗️</span><span style="font-size:12px;font-weight:700">PPRC Piping</span></div>
         <div class="img-tag">Piping</div><div class="img-label">PPRC Concealed Pipe Layout</div>
       </div>
+
+      <!-- 4. Wall Chasing & Embedding -->
       <div class="gallery-card fade-in" data-cat="piping">
-        <img src="https://i.postimg.cc/nL3VcZBQ/IMG-20260606-223522.png" alt="Wall Chasing" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="https://i.postimg.cc/bJdyZM9d/IMG-20260606-223401.png" alt="Wall Chasing" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#1e3a5f,#0a2540)"><span style="font-size:40px">🔨</span><span style="font-size:12px;font-weight:700">Wall Chasing</span></div>
         <div class="img-tag">Piping</div><div class="img-label">Wall Chasing & Pipe Embedding</div>
       </div>
-      <div class="gallery-card fade-in" data-cat="piping">
-        <img src="https://i.postimg.cc/B6tSjyB8/IMG-20260606-223410.png" alt="Drainage Layout" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0ea5e9,#0369a1)"><span style="font-size:40px">💧</span><span style="font-size:12px;font-weight:700">Under-floor Drainage</span></div>
-        <div class="img-tag">Piping</div><div class="img-label">Under-floor UPVC Drainage Layout</div>
-      </div>
-      <div class="gallery-card fade-in" data-cat="piping">
-        <img src="https://i.postimg.cc/bJdyZM9d/IMG-20260606-223401.png" alt="Piping Under Construction" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0a2540,#1a4a7a)"><span style="font-size:40px">🧱</span><span style="font-size:12px;font-weight:700">Rough-in Piping</span></div>
-        <div class="img-tag">Piping</div><div class="img-label">Concealed Rough-in Work</div>
-      </div>
+
+      <!-- 5. Luxury Washroom Fitting -->
       <div class="gallery-card fade-in" data-cat="bathroom">
         <img src="https://i.postimg.cc/TwhdKSJ5/IMG-20260606-222255.png" alt="Luxury Bathroom" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#8b5cf6,#6d28d9)"><span style="font-size:40px">🛁</span><span style="font-size:12px;font-weight:700">Luxury Bathroom</span></div>
         <div class="img-tag" style="background:#8b5cf6">Bathroom</div><div class="img-label">Mukammal Luxury Washroom Fitting</div>
       </div>
+
+      <!-- 6. Sink Drain & Siphon Leak Repair -->
       <div class="gallery-card fade-in" data-cat="repair">
         <img src="https://i.postimg.cc/rmzVDbND/plumber-fixing-a-water-leak-in-a-sink-drain-siphon.jpg" alt="Sink Repair" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#dc2626,#991b1b)"><span style="font-size:40px">🔧</span><span style="font-size:12px;font-weight:700">Sink Siphon Repair</span></div>
         <div class="img-tag" style="background:#dc2626">Repair</div><div class="img-label">Sink Drain & Siphon Leak Repair</div>
       </div>
+
+      <!-- 7. Hidden Pipeline Maintenance -->
       <div class="gallery-card fade-in" data-cat="repair">
         <img src="https://i.postimg.cc/wv3q1PQm/360-F-192075396-L1xm-C17b-Ui-GRImz8X2ez-Pl37yh-Evn8Py.jpg" alt="Pipe Maintenance" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#b45309,#92400e)"><span style="font-size:40px">⚙️</span><span style="font-size:12px;font-weight:700">Pipe Maintenance</span></div>
         <div class="img-tag" style="background:#dc2626">Repair</div><div class="img-label">Hidden Pipeline Maintenance</div>
       </div>
+
+      <!-- 8. Modern Bathroom Sink Installation -->
       <div class="gallery-card fade-in" data-cat="bathroom">
         <img src="https://i.postimg.cc/TPt2YGmZ/young-plumber-fixing-a-sink-in-bathroom.jpg" alt="Bathroom Sink Installation" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="img-placeholder" style="display:none;background:linear-gradient(135deg,#0ea5e9,#0284c7)"><span style="font-size:40px">🚿</span><span style="font-size:12px;font-weight:700">Sink Fitting</span></div>
         <div class="img-tag" style="background:#8b5cf6">Bathroom</div><div class="img-label">Modern Bathroom Sink Installation</div>
       </div>
+      
     </div>
+  </div>
+  
     <div style="margin-top:50px" class="fade-in">
   <h3 style="text-align:center;font-size:26px;color:var(--primary);margin-bottom:8px">Before & After</h3>
   <div class="accent-line"></div>
